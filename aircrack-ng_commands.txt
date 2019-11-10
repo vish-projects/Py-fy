@@ -1,0 +1,17 @@
+iwconfig -> check available network cards
+iwconfig [interface] mode monitor -> enable monitor mode manually via iwconfig
+iwconfig [interface] txpower {NmW|NdBm|off|auto} -> Increase the radio power of the network card (Allow only if network card supports it !!!)
+airmon-ng start|stop|check <net-adapter> [frequency] -> start|check|stop monitor mode of the wifi card (optional: frequency on which to listen)
+airodump-ng -c <channel> --bssid <mac_of_ac_point> [--essid <name_of_ac_point] -w <file_to_save_packets> <interface> -> dump packets on specified channel and name of ac point and save them to a file.
+airodump-ng <interface> -> it will capture traffic from all network points on all channels in proximity
+aireplay-ng -deauth <number_packets_to_send> -a <ac_point_name> <interface> -> start deauthentication attack against the specified ac point
+macchanger -s (--show) <interface> -> print MAC address of a specified deivce
+macchanger -p <interface> -> restore MAC of a specified device
+macchanger -a <interface> -> set random MAC address of the same vendor of the specified network adapter
+macchanger -A <interface> -> set a random MAC of any vendor
+airbase-ng -e <essid_of_acpoint_to_attack> -c <channel> <interface> -> create evil twin point on WPA2
+
+
+
+
+

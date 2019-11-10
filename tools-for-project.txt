@@ -1,0 +1,47 @@
+LEGEND:
+
+* -> Must be done
+** -> For future integration
+# -> Is it useful ?
+
+Ask more people for tools they used on wifi assessments. Add to list for * || ** integration...
+
+P.S All tools (well most of them) should come pre-installed with kali
+
+*aircrack-ng -> P.S airoscript can help with creating commands for aircrack-ng and its set of tools (Basics !)
+*Pyrit -> allows for creating of massive database of precomputed hashes
+*Kismet -> 802.11 layer-2 wireless network detector, sniffer, and intrusion detection system
+*PixieWPS -> bruteforce offline the WPS pin exploiting the low or non-existing entropy of some APs (pixie dust attack)
+*Reaver -> implements a brute force attack against WPS registrar PINs in order to recover WPA/WPA2 passphrases
+*wifiphisher -> automates phishing attacks against Wi-Fi networks in order to obtain credentials
+*cowpatty -> Implementation of an offline dictionary attack against WPA/WPA2 networks using PSK-based authentication
+*eapmd5pass -> This tool reads from a live network interface in monitor-mode, or from a stored libpcap capture file, and extracts the portions of the EAP-MD5 authentication exchange. eapmd5pass will mount an offline dictionary attack against the user’s password
+*blueranger -> bluetooth assessment tool
+*packetforge-ng -> generate custom packets
+*ettercap/bettercap ->  (either should the work !)
+*wifitap -> Wifitap allows any application do send and receive IP packets using 802.11 traffic capture and injection over a WiFi networki
+
+(Website)
+#Integrate routerpwn.com to find vulns about specific vendor
+
+**Routersploit -> tries to find common vulnerabilities with routers
+**SET (Social Engineering Toolkit) -> its a social engineering toolkit.. no need for more explanation
+*Yersinia -> framework for performing layer 2 attacks. It is designed to take advantage of some weaknesses in different network protocols
+*cisco-auditing-tool -> performs varies methods to audit cisco routers
+*cisco-torch -> Cisco Torch mass scanning, fingerprinting, and exploitation tool
+**cisco-ocs -> A mass Cisco scanning tool
+*cisco-global-exploiter -> tries to find vulns with cisco routers
+
+(Website)
+**Integrate exploit-db to find exploits for routers
+
+*copy-router-config -> attempts to get config file of cisco routers
+**Redfang -> application to find non discoverable Bluetooth devices
+*wpaclean -> clean .cap files, get only handshake and beacon
+**wlan2eth -> rewrite 802.11 packets to standard ethernet frames
+**rfdump -> detect RFID-tags and show their meta information
+#airpwn -> create generic packets for 802.11 to perform injection
+**airgeddon -> This is a multi-use bash script for Linux systems to audit wireless networks
+**aphopper -> tool to auto hop between access points
+**dnsmasq -> setup a dhcp or dns caching server on the attacker box to log traffic from an EvilTwin attack
+#iptables -> integrate IPTables for later use with dnsmasq. Configure firewall to allow certain methods of traffic (Drop|Allow|Block -> Incomming|Outgoing Traffic)
