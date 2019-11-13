@@ -4,12 +4,23 @@ LEGEND:
 ** -> For future integration
 # -> Is it useful ?
 
+-------------------------------------
+Tools to integrate at initial state:
+
+- aircrack-ng
+- Kismet
+- Reaver
+- ettercap/bettercap
+- PixieWPS
+
+
+--------------------------------------
 Ask more people for tools they used on wifi assessments. Add to list for * || ** integration...
 
 P.S All tools (well most of them) should come pre-installed with kali
 
 *aircrack-ng -> P.S airoscript can help with creating commands for aircrack-ng and its set of tools (Basics !)
-*Pyrit -> allows for creating of massive database of precomputed hashes
+#Pyrit -> allows for creating of massive database of precomputed hashes
 *Kismet -> 802.11 layer-2 wireless network detector, sniffer, and intrusion detection system
 *PixieWPS -> bruteforce offline the WPS pin exploiting the low or non-existing entropy of some APs (pixie dust attack)
 *Reaver -> implements a brute force attack against WPS registrar PINs in order to recover WPA/WPA2 passphrases
@@ -45,3 +56,8 @@ P.S All tools (well most of them) should come pre-installed with kali
 **aphopper -> tool to auto hop between access points
 **dnsmasq -> setup a dhcp or dns caching server on the attacker box to log traffic from an EvilTwin attack
 #iptables -> integrate IPTables for later use with dnsmasq. Configure firewall to allow certain methods of traffic (Drop|Allow|Block -> Incomming|Outgoing Traffic)
+
+
+--#--#--#--#--#--#--#
+Could prob use iwconfig to manually set adapters in monitor mode ?...
+--#--#--#--#--#--#--#
