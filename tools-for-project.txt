@@ -7,7 +7,7 @@ LEGEND:
 -------------------------------------
 Tools to integrate at initial state:
 
-- aircrack-ng
+- aircrack-ng # i meant to say full suite of tools !
 - Kismet
 - Reaver
 - ettercap/bettercap
